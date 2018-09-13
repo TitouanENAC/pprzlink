@@ -368,7 +368,21 @@
       <field name="alt" type="float" unit="m"/>
     </message>
 
-    <!-- 45 is free -->
+    <message name="NEPHELAE_TEST_DEBUG" id="45">
+      <field name="stamp" type="uint32" unit="usec"/>
+      <field name="VariableConst" type="float"/>
+      <field name="x_u" type="float"/>
+      <field name="x_v" type="float"/>
+      <field name="x_w" type="float"/>
+      <field name="x_p" type=""/>
+      <field name="x_q" type="float"/>
+      <field name="x_r" type="float"/>
+      <field name="x_phi" type="float"/>
+      <field name="x_theta" type="float"/>
+      <field name="delta_u_elevon" type="float"/>
+      <field name="delta_u_aileron" type="float"/>
+      <field name="delta_u_thottle" type="float"/>
+    </message>
 
     <message name="BARO_WORDS" id="46">
       <field name="w1"  type="uint16"/>
