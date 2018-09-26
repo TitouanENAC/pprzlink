@@ -374,7 +374,7 @@
       <field name="x_u" type="float"/>
       <field name="x_v" type="float"/>
       <field name="x_w" type="float"/>
-      <field name="x_p" type=""/>
+      <field name="x_p" type="float"/>
       <field name="x_q" type="float"/>
       <field name="x_r" type="float"/>
       <field name="x_phi" type="float"/>
