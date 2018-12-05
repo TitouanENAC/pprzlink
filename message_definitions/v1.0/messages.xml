@@ -369,8 +369,9 @@
     </message>
 
     <message name="NEPHELAE_TEST_DEBUG" id="45">
-      <field name="stamp" type="uint32" unit="usec"/>
-      <field name="VariableConst" type="float"/>
+      <field name="gyro_stamp" type="uint32" unit="usec"/>
+      <field name="accel_stamp" type="uint32" unit="usec"/>
+      <field name="debug" type="float" format="%.13f"/>
       <field name="x_u" type="float"/>
       <field name="x_v" type="float"/>
       <field name="x_w" type="float"/>
@@ -379,10 +380,12 @@
       <field name="x_r" type="float"/>
       <field name="x_phi" type="float"/>
       <field name="x_theta" type="float"/>
-      <field name="delta_u_elevon" type="float"/>
       <field name="delta_u_aileron" type="float"/>
-      <field name="delta_u_thottle" type="float"/>
+      <field name="delta_u_flap" type="float"/>
+      <field name="delta_u_v_motor" type="float"/>
     </message>
+
+    <!-- 58 is free -->
 
     <message name="BARO_WORDS" id="46">
       <field name="w1"  type="uint16"/>
@@ -398,7 +401,6 @@
       <field name="alt" type="int32" unit="mm" alt_unit="m">Height above Mean Sea Level (geoid)</field>
     </message>
 
-    <!-- 48 is free -->
 
     <message name="WP_MOVED_ENU" id="49">
       <field name="wp_id" type="uint8"/>
